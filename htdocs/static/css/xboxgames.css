@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: helvetica, arial, sans-serif;
+}
+div {
+    text-align: left;
+}
+body.wanted li.wanted a,
+body.gotit li.gotit a,
+body.owned li.owned a,
+body.add li.add a {
+    font-weight: bold;
+    color: #ff0000;
+}
+#content {
+    margin: 0 auto;
+    width: 400px;
+}
+h1 {
+    color: #333;
+}
+h1 a {
+    color: #000;
+}
+.main_nav {
+    list-style: none;
+    margin: 5px 0 20px 0;
+    padding: 9px 0 5px 0;
+    border-bottom: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+}
+.main_nav li {
+    display: inline;
+    margin-right: 10px;
+}
+a {
+    color: #00aa00;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+table {
+    border: 1px solid #d2d2d2;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+table th,
+table td {
+    padding: 5px;
+}
+.error {
+    color: #dd0000;
+    padding-bottom: 20px;
+}
+table th {
+    background-color: #f2f2f2;
+}
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+table .name {
+    width: 200px;
+}
+table .votes {
+    width: 50px;
+}
+table .action a {
+    margin-right: 10px;
+}
+label {
+    display: block;
+    color: #888;
+}
+#gametitle {
+    width: 340px;
+}

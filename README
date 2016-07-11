@@ -1,0 +1,14 @@
+Set htdocs as the root directory for this project.
+All calls are handled by the index.php file within htdocs.
+
+To clear all games and votes run clearall.php from the command line.
+
+Dependencies:
+    PHPUnit 3.6.8 (to run tests)
+
+Note on framework:
+    typically I wouldn't make my own framework and would prefer to
+    use something such as codeigniter for the typical reasons (more
+    secure, better test coverage, ongoing support etc). However,
+    the instructions do not specify whether or not a third-party 
+    framework should be used, so I made my own.
